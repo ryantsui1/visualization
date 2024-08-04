@@ -8,22 +8,41 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-
+1. Python
+2. Google Sheets. Link: https://docs.google.com/spreadsheets/d/1O3spCiv5rvNFqaLiYVoVTVwQv07STX_3c6jO5-oNfFo/edit?usp=sharing
     > Who is your intended audience? 
-    
+    Anyone interested in knowing the Egg Production capacity in Canada.
     > What information or message are you trying to convey with your visualization? 
-    
+    That the production of eggs has grown over time, driven by both an increase in layers and an increase in # of Eggs produced per layer.
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+- Made a chart that communicated the trend as simply as possible. 
+- Ensuring that tooltips were available if precise values were needed.
+- Google Sheets allowed for displaying of Raw Dataset given how clean it was for those preferring to look at a table of numbers.
+
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    1. Produced notes on data cleaning of the xlsx to CSV file
+    - Produced comments on how to get packages, what lines of code were doing, why I chose to make certain decisions.
+    2. Used the least amount of edits on Google Drive to make it easy to reproduce. Included notes on separate sheet. Used Google Sheets because Software was accessible for reproducibility on graphs. However it is susceptable to updates changing the layouts/process to generate the same layout.
     > How did you ensure that your data visualization is accessible?  
-    
+    - Tried to ensure visibility from colour blindness by ensuring darkness difference between lines in the same graph.
+    - I would publish with a link to Ontario's data catalog for users to get more information on how data was collected and what they mean. (See Citation Section)
+
     > Who are the individuals and communities who might be impacted by your visualization?  
+    - The egg farmers and their communities as it pertains to the industry's scale and production.
+    - Probably any retailers to understand if there is a gap in supply from farmers and demand from customers around Ontario.
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    - Dataset was simple, and thus all metrics were included as it was deemed they had value and easy to display.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    - Sourcing the dataset from the Ontario Open Datasets
+    - Cleaned data to push into plotly express
+
+
+Citation of Data Source: 
+Agriculture, Food and Rural Affairs. (n.d.). Ontario Egg production. Ontario egg production. https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fdata.ontario.ca%2Fdataset%2F5fc7016b-0c85-4016-8e3f-14c8a13d2158%2Fresource%2F122eed63-7035-41bb-a246-23aaf3f63014%2Fdownload%2Feggs.xlsx&wdOrigin=BROWSELINK 
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
