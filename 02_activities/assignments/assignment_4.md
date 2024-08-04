@@ -8,7 +8,7 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-1. Python
+1. Python (see Assignment 4 Juypter Notebook)
 2. Google Sheets. Link: https://docs.google.com/spreadsheets/d/1O3spCiv5rvNFqaLiYVoVTVwQv07STX_3c6jO5-oNfFo/edit?usp=sharing
     > Who is your intended audience? 
     Anyone interested in knowing the Egg Production capacity in Canada.
